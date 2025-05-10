@@ -1,0 +1,15 @@
+[patch.crates-io]
+esl_gpu = { path = "./esl_gpu" }
+ergnomics_gpu = { path = "./ergnomics_gpu" }
+# esl_macros = { path = "./exturion_old/esl_macros" }
+# esl_macros_core = { path = "./exturion_old/esl_macros_core" }
+all_tuples = { path = "./all_tuples" }
+ergnomics_macros = { path = "./ergnomics_macros" }
+ergnomics = { path = "./ergnomics" }
+# ergnomics_std = { path = "./ergnomics_std" }
+custom_config = { path = "./custom_config" }
+ergnomics_alloc = { path = "./ergnomics_alloc" }
+ergnomics_core = { path = "./ergnomics_core" }
+esl_raw = { path = "./esl_raw" }
+niobe = { path = "./niobe" }
+sync = { path = "./sync" }

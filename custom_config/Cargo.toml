@@ -1,0 +1,11 @@
+[package]
+name = "custom_config"
+version = "1.0.0"
+authors = ["Stock84-dev <leontk8@gmail.com>"]
+edition = "2021"
+
+[lib]
+name = "custom_config"
+path = "src/custom_config.rs"
+
+[dependencies]

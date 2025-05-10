@@ -1,0 +1,40 @@
+[package]
+name = "niobe"
+version = "1.0.0"
+authors = ["Stock84-dev <leontk8@gmail.com>"]
+edition = "2021"
+
+[lib]
+name = "niobe"
+path = "src/niobe.rs"
+
+[dependencies]
+esl_gpu = "1"
+ergnomics = "1"
+sync = "1"
+eframe = { version = "0.26.2", features = ["default", "puffin"] }
+rand = "0.8.5"
+itertools = "0.12.1"
+rayon = "1.8.1"
+puffin = "0.19"
+puffin_http = "0.16"
+egui = { version = "0.26.2", features = ["rayon", "puffin"] }
+num_cpus = "1.16.0"
+ordered-float = "4.2.0"
+parking_lot = "0.12.1"
+triomphe = "0.1.11"
+chrono = "0.4.34"
+emath = "0.26.2"
+thread-priority = "0.15.1"
+egui_plot = "0.26.2"
+atomic_float = "0.1.0"
+bytemuck = "1.14.3"
+float-pretty-print = "0.1.1"
+enum_dispatch = "0.3.12"
+paste = "1.0.14"
+threadpool = "1.8.1"
+
+# epaint = "0.26.2"
+# egui_plot = "0.26.2"
+# emath = "0.26.2"
+# egui = "0.26.2"

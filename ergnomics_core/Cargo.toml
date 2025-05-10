@@ -1,0 +1,12 @@
+[package]
+name = "ergnomics_core"
+version = "1.0.0"
+authors = ["Stock84-dev <leontk8@gmail.com>"]
+edition = "2021"
+
+[lib]
+name = "ergnomics_core"
+path = "src/ergnomics_core.rs"
+
+[dependencies]
+derive-new = "0.7.0"

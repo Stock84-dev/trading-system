@@ -1,0 +1,48 @@
+[package]
+name = "esl_raw"
+version = "1.0.0"
+authors = ["Stock84-dev <leontk8@gmail.com>"]
+edition = "2021"
+
+[lib]
+name = "esl_raw"
+path = "src/esl_raw.rs"
+
+[dependencies]
+# merovingian = "1"
+# esl_macros_raw = "1"
+ergnomics = "1"
+ergnomics_gpu = "1"
+# quote_str = "1"
+# quote_str_macros = "1"
+eyre = "0.6.12"
+bytemuck = { version = "1.14.3", features = ["derive"] }
+# cust = "0.3.2"
+# cust_raw = "0.11.3"
+memmap2 = "0.9.4"
+# paste = "1.0.14"
+# polars = { version ="0.32.1", features = ["dtype-datetime", "dtype-i8", "dtype-u8", "dtype-i16", "dtype-u16"], default-features = false }
+# arrow2 = "0.17.4"
+# parquet = "51.0.0"
+# whoami = "1.5.1"
+# sqlx = { version = "0.7.4", features = ["runtime-tokio", "macros", "postgres"] }
+# futures-util = "0.3.30"
+deepsize = "0.2.0"
+serde = { version = "1.0.216", features = ["derive"] }
+tokio = { version = "1.24.1", features = ["full"] }
+async-bincode = { version = "0.7.3", features = ["futures"] }
+# futures-util = "0.3.31"
+futures = "0.3.31"
+bincode = "1.3.3"
+libc = "0.2.169"
+ahash = "0.8.11"
+bitcode = "0.6.5"
+path_no_alloc = "0.1.2"
+humantime = "2.1.0"
+rayon = "1.10.0"
+num_cpus = "1.16.0"
+parking_lot = "0.12.2"
+chrono = "0.4.38"
+custom_config = "1"
+statrs = "0.18.0"
+

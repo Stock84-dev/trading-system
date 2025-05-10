@@ -1,0 +1,26 @@
+# Unstable features below
+unstable_features = true
+version = "Two"
+# required_version = "1.6.0"
+
+# when doing cargo fix set imports_granularity to module then `cargo fix`, then to `Crate`
+# Having use statements grouped by crate is hard to refactor. If every module at the root of the 
+# crate is considered as a candidate to move into it's own crate then simple search and replace 
+# won't work.
+imports_granularity = "Module"
+# after cargo fix there will be blank lines where imports used to be, this removes them
+group_imports = "StdExternalCrate"
+format_code_in_doc_comments = true
+wrap_comments = true
+comment_width = 100
+format_strings = true
+normalize_comments = true
+empty_item_single_line = true
+format_macro_matchers = true
+match_block_trailing_comma = true
+newline_style = "Unix"
+normalize_doc_attributes = true
+reorder_impl_items = true
+chain_width = 76
+single_line_if_else_max_width = 76
+single_line_let_else_max_width = 77

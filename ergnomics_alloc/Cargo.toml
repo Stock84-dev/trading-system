@@ -1,0 +1,11 @@
+[package]
+name = "ergnomics_alloc"
+version = "1.0.0"
+authors = ["Stock84-dev <leontk8@gmail.com>"]
+edition = "2021"
+
+[lib]
+name = "ergnomics_alloc"
+path = "src/ergnomics_alloc.rs"
+
+[dependencies]

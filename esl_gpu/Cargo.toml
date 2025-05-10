@@ -1,0 +1,21 @@
+[package]
+name = "esl_gpu"
+version = "1.0.0"
+authors = ["Stock84-dev <leontk8@gmail.com>"]
+edition = "2021"
+
+[lib]
+name = "esl_gpu"
+path = "src/esl_gpu.rs"
+
+[dependencies]
+ergnomics_gpu = "1"
+ordered-float = { version = "3.6.0", features = [], default-features = false }
+bytemuck = { version = "1.14.3", features = ["derive"] }
+
+[target.'cfg(not(target_os = "cuda"))'.dependencies]
+sync = "1"
+
+# [target.'cfg(not(target_os = "cuda"))'.dependencies]
+# cust = "0.3.2"
+# cuda_std = "0.2.2"

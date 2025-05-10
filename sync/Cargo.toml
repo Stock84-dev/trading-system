@@ -1,0 +1,15 @@
+[package]
+name = "sync"
+version = "1.0.0"
+authors = ["Stock84-dev <leontk8@gmail.com>"]
+edition = "2021"
+
+[lib]
+name = "sync"
+path = "src/sync.rs"
+
+[dependencies]
+atomic = "0.6.0"
+parking_lot = "0.12.3"
+slice-ring-buffer = "0.3.4"
+triomphe = "0.1.14"
